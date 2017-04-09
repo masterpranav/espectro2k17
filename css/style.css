@@ -19,6 +19,119 @@ body {
   background: #fff;
 }
 
+#portfolio {
+    background: linear-gradient(rgba(28, 50, 84, 0.9), rgba(28, 50, 84, 0.9)) repeat scroll 0 0%, rgba(0, 0, 0, 0) url("../images/portfolio-bg.jpg");
+    background: -webkit-linear-gradient(rgba(28, 50, 84, 0.9), rgba(28, 50, 84, 0.9)) repeat scroll 0 0%, rgba(0, 0, 0, 0) url("../images/portfolio-bg.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+}
+
+#portfolio .main-heading h2 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+#portfolio .main-heading {
+    margin: 0;
+}
+
+#portfolio .sp-simpleportfolio-filter a {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-right: 1px solid #fff;
+    font-size: 15px;
+    margin: 0;
+    padding: 0px 15px 0 3px;
+    text-transform: capitalize;
+    border-radius: 0;
+    line-height: 15px;
+}
+
+.sp-simpleportfolio-filter ul li {
+    margin: 0;
+}
+
+#portfolio .sp-simpleportfolio-filter li:last-child a {
+    border: none;
+}
+
+#portfolio .sp-simpleportfolio li.active a,
+#portfolio .sp-simpleportfolio li:hover a {
+    color: #EFBB20;
+}
+
+.inner section#portfolio {
+    background-image: none;
+    padding-bottom: 80px;
+}
+
+.inner #portfolio .sp-simpleportfolio-filter a {
+    border-color: #777;
+    color: #777;
+}
+
+#portfolio .sp-simpleportfolio-overlay {
+    background-color: rgba(239, 187, 32, .9);
+}
+
+#portfolio .sp-simpleportfolio .btn-zoom:hover,
+#portfolio .sp-simpleportfolio .btn-view:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#project-detail .project-block h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+#project-detail .project-block {
+    padding: 0;
+}
+
+#project-detail .project-block ul.project-info {
+    padding: 0 0 0 50px;
+}
+
+#project-detail .project-info span {
+    color: #34404e;
+    font-family: montserrat;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+#project-detail .project-info .date {
+    margin-top: 5px;
+}
+
+#project-detail ul.project-info li:not(:last-child) {
+    padding-bottom: 10px;
+}
+
+#project-detail ul.project-info li:not(:first-child) {
+    padding-top: 10px;
+}
+
+#project-detail ul.project-info li:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+#project-detail .margin {
+  margin: 20px 0;
+}
+
+#portfolio .sp-simpleportfolio-filter a {
+        padding: 1px 10px;
+    }
+
+
 .contact-section {
   background-color: #f7ab24;
   background-image: url("../images/contact-bg.jpg");

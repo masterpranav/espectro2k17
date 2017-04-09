@@ -20,8 +20,8 @@ body {
 }
 
 #portfolio {
-    background: linear-gradient(rgba(28, 50, 84, 0.9), rgba(28, 50, 84, 0.9)) repeat scroll 0 0%, rgba(0, 0, 0, 0) url("../images/portfolio-bg.jpg");
-    background: -webkit-linear-gradient(rgba(28, 50, 84, 0.9), rgba(28, 50, 84, 0.9)) repeat scroll 0 0%, rgba(0, 0, 0, 0) url("../images/portfolio-bg.jpg");
+    background: linear-gradient(rgba(28, 50, 84, 0.9), rgba(28, 50, 84, 0.9)) repeat scroll 0 0%, rgba(0, 0, 0, 0) url(../images/portfolio-bg.jpg);
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9)) repeat scroll 0 0%, rgba(0, 0, 0, 0) url(../images/portfolio-bg.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
